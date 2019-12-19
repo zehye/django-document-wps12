@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'myapp.apps.MyappConfig',
     'many_to_one.apps.ManyToOneConfig',
+    'many_to_many.apps.ManyToManyConfig',
 
     'django.contrib.admin',
     'django.contrib.auth',
