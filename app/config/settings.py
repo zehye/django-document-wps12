@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'one_to_one.apps.OneToOneConfig',
 
     'inheritance.abstract.apps.AbstractConfig',
+    'inheritance.multitable.apps.MultitableConfig',
 
     'django.contrib.admin',
     'django.contrib.auth',
